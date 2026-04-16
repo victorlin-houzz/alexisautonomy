@@ -49,6 +49,20 @@ h1 { font-size: clamp(2rem, 5vw, 3.4rem); line-height: 1.1; margin: .2rem 0 1rem
 .card h2 { margin-top: .2rem; font-size: 1.05rem; }
 .card p, .card li { color: var(--muted); }
 .muted { color: var(--muted); opacity: 0.9; }
+.project-thumb {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: .8rem;
+  border: 1px solid var(--line);
+  margin: .5rem 0 .75rem;
+}
+.project-links {
+  margin-top: .75rem;
+  display: flex;
+  gap: .6rem;
+  flex-wrap: wrap;
+}
 .profile-head {
   display: grid;
   grid-template-columns: 88px 1fr;
